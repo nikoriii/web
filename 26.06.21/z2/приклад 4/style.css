@@ -1,0 +1,47 @@
+body {
+    padding: 10px;
+    text-align: center;
+}
+
+.block {
+    display: inline-block;
+    width: 192px;
+    height: 192px;
+    margin: 5px;
+
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px #999999;
+}
+
+
+.block1 {
+    background-color: #2ecc71;
+    background-image: url("cat_box.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+
+}
+
+.block2 {
+    background-color: #3498db;
+    background-image: url("cat_fish.png");
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+
+}
+
+.block3 {
+    background-color: #e74c3c;
+    background-image: url("cat_drunk.png");
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+
+}
+
+.block4 {
+    background-color: #e67e22;
+    background-image: url("cat_tied.png");
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+
+}

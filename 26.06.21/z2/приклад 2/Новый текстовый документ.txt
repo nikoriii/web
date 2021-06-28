@@ -1,0 +1,4 @@
+cat_box.png Ч первому блоку,
+cat_fish.png Ч второму блоку,
+cat_drunk.png Ч третьему блоку,
+cat_tied.png Ч четвЄртому блоку.
