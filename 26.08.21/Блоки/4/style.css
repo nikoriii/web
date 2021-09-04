@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cont{
+    width: 90%;
+    margin: 5px auto;
+}
+
+.menu,
+.podval {
+    height: 30px;
+    width: 100%;
+    background-color: cadetblue;
+}
+
+.menu,
+.ocnovnoe,
+.bokovaya,
+.podval {
+    padding-left: 20px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.ocnovnoe,
+.bokovaya {
+    height: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+    .ocnovnoe{
+    width: 60%;
+    background-color: floralwhite;
+    float: left;
+}
+
+
+.bokovaya{
+    width: 30%;
+    background-color: deepskyblue;
+    float: right;
+}
+
+.podval{
+    clear: both;
+}

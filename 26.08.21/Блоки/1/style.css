@@ -1,0 +1,54 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 540px;
+    min-height: 290px;
+    padding-top: 20px;
+    padding-left: 20px;
+
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: "Arial", sans-serif;
+    color: white;
+
+    background-color: #3a78a1;
+    background-image: url("grid.png");
+    background-repeat: repeat;
+    background-position: -80px -80px;
+}
+
+.block {
+    background-color: rgba(0, 255, 255, 0.2);
+    border: 2px solid white
+}
+
+.block1 {
+    height: 40px;
+    width: 200px;
+}
+
+.block2 {
+    height: 60px;
+    width: 140px;
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.block3 {
+    height: 30px;
+    width: 170px;
+    border: 10px solid white;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+}

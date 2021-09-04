@@ -1,0 +1,43 @@
+.container {
+    width: 300px;
+    margin: 10px auto;
+}
+
+.block {
+    margin-bottom: 10px;
+    padding: 10px;
+    color: #cc0000;
+    background-color: rgba(255, 234, 171, 0.5);
+    border: 2px dashed #cccccc;
+}
+
+.column1,
+.column2,
+.column3 {
+    padding-bottom: 30px;
+}
+
+.column1,
+.column3 {
+    width: 20%;
+
+}
+
+.column2 {
+    width: 30%;
+    float: left;
+    margin: auto 3%;
+
+}
+
+.column1 {
+    float: left;
+}
+
+.column3 {
+    float: right;
+}
+
+.footer {
+    clear: both;
+}
