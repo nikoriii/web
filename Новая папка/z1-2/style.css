@@ -1,0 +1,65 @@
+.main{
+    width: 100%;
+    height: 100%;
+}
+.col-left{
+    background-color: #2E8B57;
+    width: 11%;
+    height: 980px;
+    float: left;
+}
+.logo{
+    width: 100%;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+.menu{
+    width: 98%;
+    padding-top: 3px;
+}
+
+.menu .btn{
+    background-color: #8FBC8F;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.banners{
+    width: 100%;
+    margin-top: 30px;
+}
+.banners img{
+    width: 100%;
+    margin-bottom: 3px;
+
+}
+
+.col-right{
+    background-color: #98FB98;
+    float: right;
+    width: 89%;
+    height: 980px;
+}
+
+.info-img{
+    margin-right: 5px;
+}
+.info{
+    height: 167px;
+}
+.info p{
+    margin: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.news{
+    clear: both;
+    margin-top: 40px;
+}
+.news h1{
+     text-align:center;
+}
