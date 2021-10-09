@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    
+    text-decoration: none;
+}
+     
+
+body {
+    font-family: Josefin Sans;
+    color: black;
+    width: 100%;
+}
+
+.header {
+    background-color: chartreuse;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.header h1 {
+    padding-bottom: 10px;
+}
+
+.nav {
+    background-color: coral;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 100%;
+}
+
+.menu {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.menu a {
+    color: darkslategrey;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+.menu a:hover {
+    background-color: darkblue;
+    color: coral;
+}
+
+.content {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+.row_text h1 {
+    float: left;
+    margin-right: 20px;
+}
+
+.row_text h3 {
+    color: gray;
+    padding-top: 10px;
+}
+
+hr {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.cartochki {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row-text1 {
+    flex: 30%;
+    border: 1px solid gray;
+}
+
+.row-text1:first-child {
+    margin-right: 5px;
+}
+
+.row-text1:last-child {
+    margin-left: 5px;
+}
+
+.row-text1_img {
+    width: 100%;
+}
+
+.row-text1_text {
+    padding: 20px 15px;
+}
+
+.row-text1_text h4 {
+    color: chartreuse;
+    /*overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;*/
+}
+
+.row-text1_text p {
+    height: 80px;
+    overflow: hidden;
+}
+
+.btn {
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline:none;
+}
