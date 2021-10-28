@@ -1,0 +1,43 @@
+body {
+	background-color: #6699CC;
+}
+#header {
+    width: 90%;
+    height: 175px;
+}
+img {
+	width: 250px;
+	height: 167px;
+	float: left;
+}
+h1 {
+	color: white;
+	margin-top: 50px;
+	margin-left: 10px;
+	float: left;
+}
+ul {
+	padding: 0;
+	margin: 0;
+    display:flex;
+    justify-content:space-between;
+}
+li {
+	display: inline-block;
+	width: 150px;
+	text-align: center;
+	font-weight: bold;
+    background-color:  #ffec64;
+    padding: 10px;
+}
+li a{
+    text-decoration: none; 
+    
+}
+li:hover{
+    background-color: #ffab23;
+}
+
+#golovna {
+	width: 250px;
+}
