@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h3>Анкета на підключення інтернету</h3>
+    <form action="action_page.html">
+        <label for="name">ПіП</label>
+
+        <input type="text" placeholder="Прізвище ім`я По батькові" id="name">
+        <br>
+        <br>
+        <label>Пароль
+            <input type="password" placeholder="Придумайте пароль">
+        </label>
+        <br>
+        <br>
+        <label>Провайдер
+            <input type="text" placeholder="Internet" disabled>
+        </label>
+        <br>
+        <br>
+        <label>Тарифи
+            <select name="#" id="#">
+                <option value="#">4 Мбіт/с</option>
+                <option value="#">2 Мбіт/с</option>
+                <option value="#">100 Мбіт/с</option>
+            </select>
+        </label>
+        <br>
+        <br>
+        <label>Додаткові послуги
+            <br><input type="checkbox"> Реальний статичний IP
+            <br><input type="checkbox"> Відкладений платіж
+            <br><input type="checkbox" disabled> Переоформлення договору
+        </label>
+        <br>
+        <br>
+        <label>Перемикачі
+            <br><input type="radio" name="p1">Кабельне
+            <br><input type="radio" name="p1">Оптоволоконне (договірне)
+            <br><input type="radio" name="p1" disabled>Бездротове
+        </label>
+        <br>
+        <br>
+        <label>Додатково
+            <textarea>Підказка</textarea>
+        </label>
+        <br>
+        <br>
+        <button type="submit">Відправити</button>
+        <button type="reset">Очистити</button>
+    </form>
+</body>
+
+</html>

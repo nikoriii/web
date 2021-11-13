@@ -1,0 +1,69 @@
+*{
+border:none;
+}
+body {
+    background-color: #dbe0eb;
+}
+
+#maket {
+    width: 340px;
+    height: auto;
+    margin: 10% auto 0 auto;
+    border-radius: 10px;
+}
+
+h4 {
+    text-align: center;
+    color: #7f88a0;
+    padding: 15px;
+}
+
+#pay {
+    background-color: #eceff5;
+    border-radius: 5px;
+}
+
+#form {
+    background-color: #f3f6fa;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+    border-top: 1px solid #d5dae5;
+}
+
+h1 {
+    text-align: center;
+}
+
+#name {
+    width: 180px;
+}
+#card {
+    width: 235px;
+}
+#name,
+#card,
+#cvc,
+#year,
+#month {
+    margin: 5px;
+    border-radius: 5px;
+    height: 30px;
+}
+
+#cvc,
+#year,
+#month {
+    width: 40px;
+}
+button{
+    width: 290px;
+    background-color: #1993fb;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: blueviolet;
+    color: azure;
+}
